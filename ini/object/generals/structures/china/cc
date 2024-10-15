@@ -1,0 +1,896 @@
+ModelConditionState       = DAMAGED
+      Model              = NBConYard_D
+      Animation          = NBConYard_D.NBConYard_D
+      AnimationMode      = LOOP    
+      ParticleSysBone    = Fire01 SmolderingFire
+      ParticleSysBone    = Fire02 SmolderingFire
+      ParticleSysBone    = Fire03 SmolderingFire
+      ParticleSysBone    = Smoke01 SmolderingSmoke
+      ParticleSysBone    = Smoke02 SmolderingSmoke
+      ParticleSysBone    = Smoke03 SmolderingSmoke
+    End
+    ModelConditionState       = REALLYDAMAGED RUBBLE
+      Model              = NBConYard_E
+      Animation          = NBConYard_E.NBConYard_E
+      AnimationMode      = LOOP
+      ParticleSysBone    = Fire01 SmolderingFire
+      ParticleSysBone    = Fire02 SmolderingFire
+      ParticleSysBone    = Fire03 SmolderingFire
+      ParticleSysBone    = Fire04 SmolderingFire
+      ParticleSysBone    = Fire05 SmolderingFire
+      ParticleSysBone    = Fire06 SmolderingFire
+      ParticleSysBone    = Fire07 SmolderingFire
+      ParticleSysBone    = Smoke01 SmolderingSmoke
+      ParticleSysBone    = Smoke02 SmolderingSmoke
+      ParticleSysBone    = Smoke03 SmolderingSmoke
+    End
+
+
+    ;NIGHT ***********************************
+    ModelConditionState       = NIGHT
+      Model              = NBConYard_N
+      Animation          = NBConYard_N.NBConYard_N
+      AnimationMode      = LOOP    
+    End
+    ModelConditionState       = DAMAGED NIGHT
+      Model              = NBConYard_DN
+      Animation          = NBConYard_DN.NBConYard_DN
+      AnimationMode      = LOOP    
+      ParticleSysBone    = Fire01 SmolderingFire
+      ParticleSysBone    = Fire02 SmolderingFire
+      ParticleSysBone    = Fire03 SmolderingFire
+      ParticleSysBone    = Smoke01 SmolderingSmoke
+      ParticleSysBone    = Smoke02 SmolderingSmoke
+      ParticleSysBone    = Smoke03 SmolderingSmoke
+    End
+    ModelConditionState    = REALLYDAMAGED RUBBLE NIGHT
+      Model           = NBConYard_EN
+      Animation       = NBConYard_EN.NBConYard_EN
+      AnimationMode   = LOOP
+      ParticleSysBone = Fire01 SmolderingFire
+      ParticleSysBone = Fire02 SmolderingFire
+      ParticleSysBone = Fire03 SmolderingFire
+      ParticleSysBone = Fire04 SmolderingFire
+      ParticleSysBone = Fire05 SmolderingFire
+      ParticleSysBone = Fire06 SmolderingFire
+      ParticleSysBone = Fire07 SmolderingFire
+      ParticleSysBone = Smoke01 SmolderingSmoke
+      ParticleSysBone = Smoke02 SmolderingSmoke
+      ParticleSysBone = Smoke03 SmolderingSmoke
+    End
+
+    
+    ;SNOW *************************************
+    ModelConditionState       = SNOW
+      Model              = NBConYard_S
+      Animation          = NBConYard_S.NBConYard_S
+      AnimationMode      = LOOP    
+    End
+    ModelConditionState       = DAMAGED SNOW
+      Model              = NBConYard_DS
+      Animation          = NBConYard_DS.NBConYard_DS
+      AnimationMode      = LOOP    
+      ParticleSysBone    = Fire01 SmolderingFire
+      ParticleSysBone    = Fire02 SmolderingFire
+      ParticleSysBone    = Fire03 SmolderingFire
+      ParticleSysBone    = Smoke01 SmolderingSmoke
+      ParticleSysBone    = Smoke02 SmolderingSmoke
+      ParticleSysBone    = Smoke03 SmolderingSmoke
+    End
+    ModelConditionState       = REALLYDAMAGED RUBBLE SNOW
+      Model              = NBConYard_ES
+      Animation          = NBConYard_ES.NBConYard_ES
+      AnimationMode      = LOOP
+      ParticleSysBone    = Fire01 SmolderingFire
+      ParticleSysBone    = Fire02 SmolderingFire
+      ParticleSysBone    = Fire03 SmolderingFire
+      ParticleSysBone    = Fire04 SmolderingFire
+      ParticleSysBone    = Fire05 SmolderingFire
+      ParticleSysBone    = Fire06 SmolderingFire
+      ParticleSysBone    = Fire07 SmolderingFire
+      ParticleSysBone    = Smoke01 SmolderingSmoke
+      ParticleSysBone    = Smoke02 SmolderingSmoke
+      ParticleSysBone    = Smoke03 SmolderingSmoke
+    End
+
+    ;NIGHT SNOW *****************************
+    ModelConditionState       = NIGHT SNOW
+      Model              = NBConYard_NS
+      Animation          = NBConYard_NS.NBConYard_NS
+      AnimationMode      = LOOP    
+    End
+    ModelConditionState       = DAMAGED NIGHT SNOW
+      Model              = NBConYard_DNS
+      Animation          = NBConYard_DNS.NBConYard_DNS
+      AnimationMode      = LOOP    
+      ParticleSysBone    = Fire01 SmolderingFire
+      ParticleSysBone    = Fire02 SmolderingFire
+      ParticleSysBone    = Fire03 SmolderingFire
+      ParticleSysBone    = Smoke01 SmolderingSmoke
+      ParticleSysBone    = Smoke02 SmolderingSmoke
+      ParticleSysBone    = Smoke03 SmolderingSmoke
+    End
+    ModelConditionState    = REALLYDAMAGED RUBBLE NIGHT SNOW
+      Model           = NBConYard_ENS
+      Animation       = NBConYard_ENS.NBConYard_ENS
+      AnimationMode   = LOOP
+      ParticleSysBone = Fire01 SmolderingFire
+      ParticleSysBone = Fire02 SmolderingFire
+      ParticleSysBone = Fire03 SmolderingFire
+      ParticleSysBone = Fire04 SmolderingFire
+      ParticleSysBone = Fire05 SmolderingFire
+      ParticleSysBone = Fire06 SmolderingFire
+      ParticleSysBone = Fire07 SmolderingFire
+      ParticleSysBone = Smoke01 SmolderingSmoke
+      ParticleSysBone = Smoke02 SmolderingSmoke
+      ParticleSysBone = Smoke03 SmolderingSmoke
+    End   
+
+    
+    ;**************************************************************************************************************************
+    ;This block handles every possible case with construction process, selling process, awaiting construction, and sold states
+    ;for this draw module
+    ModelConditionState       = AWAITING_CONSTRUCTION PARTIALLY_CONSTRUCTED ACTIVELY_BEING_CONSTRUCTED
+      Model              = NBConYard
+      Animation          = NBConYard.NBConYard
+      AnimationMode      = LOOP
+      Flags              = ADJUST_HEIGHT_BY_CONSTRUCTION_PERCENT
+    End
+    ModelConditionState       = AWAITING_CONSTRUCTION PARTIALLY_CONSTRUCTED ACTIVELY_BEING_CONSTRUCTED DAMAGED
+      Model              = NBConYard_D
+      Animation          = NBConYard_D.NBConYard_D
+      AnimationMode      = LOOP
+      Flags              = ADJUST_HEIGHT_BY_CONSTRUCTION_PERCENT
+    End
+    ModelConditionState       = AWAITING_CONSTRUCTION PARTIALLY_CONSTRUCTED ACTIVELY_BEING_CONSTRUCTED REALLYDAMAGED
+      Model              = NBConYard_E
+      Animation          = NBConYard_E.NBConYard_E
+      AnimationMode      = LOOP
+      Flags              = ADJUST_HEIGHT_BY_CONSTRUCTION_PERCENT
+    End
+    ModelConditionState       = AWAITING_CONSTRUCTION PARTIALLY_CONSTRUCTED ACTIVELY_BEING_CONSTRUCTED NIGHT
+      Model              = NBConYard_N
+      Animation          = NBConYard_N.NBConYard_N
+      AnimationMode      = LOOP
+      Flags              = ADJUST_HEIGHT_BY_CONSTRUCTION_PERCENT
+    End
+    ModelConditionState       = AWAITING_CONSTRUCTION PARTIALLY_CONSTRUCTED ACTIVELY_BEING_CONSTRUCTED NIGHT DAMAGED
+      Model              = NBConYard_DN
+      Animation          = NBConYard_DN.NBConYard_DN
+      AnimationMode      = LOOP
+      Flags              = ADJUST_HEIGHT_BY_CONSTRUCTION_PERCENT
+    End
+    ModelConditionState       = AWAITING_CONSTRUCTION PARTIALLY_CONSTRUCTED ACTIVELY_BEING_CONSTRUCTED NIGHT REALLYDAMAGED
+      Model              = NBConYard_EN
+      Animation          = NBConYard_EN.NBConYard_EN
+      AnimationMode      = LOOP
+      Flags              = ADJUST_HEIGHT_BY_CONSTRUCTION_PERCENT
+    End
+    ModelConditionState       = AWAITING_CONSTRUCTION PARTIALLY_CONSTRUCTED ACTIVELY_BEING_CONSTRUCTED SNOW
+      Model              = NBConYard_S
+      Animation          = NBConYard_S.NBConYard_S
+      AnimationMode      = LOOP
+      Flags              = ADJUST_HEIGHT_BY_CONSTRUCTION_PERCENT
+    End
+    ModelConditionState       = AWAITING_CONSTRUCTION PARTIALLY_CONSTRUCTED ACTIVELY_BEING_CONSTRUCTED SNOW DAMAGED
+      Model              = NBConYard_DS
+      Animation          = NBConYard_DS.NBConYard_DS
+      AnimationMode      = LOOP
+      Flags              = ADJUST_HEIGHT_BY_CONSTRUCTION_PERCENT
+    End
+    ModelConditionState       = AWAITING_CONSTRUCTION PARTIALLY_CONSTRUCTED ACTIVELY_BEING_CONSTRUCTED SNOW REALLYDAMAGED
+      Model              = NBConYard_ES
+      Animation          = NBConYard_ES.NBConYard_ES
+      AnimationMode      = LOOP
+      Flags              = ADJUST_HEIGHT_BY_CONSTRUCTION_PERCENT
+    End
+    ModelConditionState       = AWAITING_CONSTRUCTION PARTIALLY_CONSTRUCTED ACTIVELY_BEING_CONSTRUCTED NIGHT SNOW
+      Model              = NBConYard_NS
+      Animation          = NBConYard_NS.NBConYard_NS
+      AnimationMode      = LOOP
+      Flags              = ADJUST_HEIGHT_BY_CONSTRUCTION_PERCENT
+    End
+    ModelConditionState       = AWAITING_CONSTRUCTION PARTIALLY_CONSTRUCTED ACTIVELY_BEING_CONSTRUCTED NIGHT SNOW DAMAGED
+      Model              = NBConYard_DNS
+      Animation          = NBConYard_DNS.NBConYard_DNS
+      AnimationMode      = LOOP
+      Flags              = ADJUST_HEIGHT_BY_CONSTRUCTION_PERCENT
+    End
+    ModelConditionState       = AWAITING_CONSTRUCTION PARTIALLY_CONSTRUCTED ACTIVELY_BEING_CONSTRUCTED NIGHT SNOW REALLYDAMAGED
+      Model              = NBConYard_ENS
+      Animation          = NBConYard_ENS.NBConYard_ENS
+      AnimationMode      = LOOP
+      Flags              = ADJUST_HEIGHT_BY_CONSTRUCTION_PERCENT
+    End
+
+    ModelConditionState       = AWAITING_CONSTRUCTION 
+      Model              = NONE
+    End
+    AliasConditionState  = AWAITING_CONSTRUCTION DAMAGED
+    AliasConditionState  = AWAITING_CONSTRUCTION REALLYDAMAGED
+    AliasConditionState  = AWAITING_CONSTRUCTION NIGHT
+    AliasConditionState  = AWAITING_CONSTRUCTION NIGHT DAMAGED
+    AliasConditionState  = AWAITING_CONSTRUCTION NIGHT REALLYDAMAGED
+    AliasConditionState  = AWAITING_CONSTRUCTION SNOW
+    AliasConditionState  = AWAITING_CONSTRUCTION SNOW DAMAGED
+    AliasConditionState  = AWAITING_CONSTRUCTION SNOW REALLYDAMAGED
+    AliasConditionState  = AWAITING_CONSTRUCTION NIGHT SNOW
+    AliasConditionState  = AWAITING_CONSTRUCTION NIGHT SNOW DAMAGED
+    AliasConditionState  = AWAITING_CONSTRUCTION NIGHT SNOW REALLYDAMAGED
+    AliasConditionState  = SOLD 
+    AliasConditionState  = SOLD DAMAGED
+    AliasConditionState  = SOLD REALLYDAMAGED
+    AliasConditionState  = SOLD NIGHT
+    AliasConditionState  = SOLD NIGHT DAMAGED
+    AliasConditionState  = SOLD NIGHT REALLYDAMAGED
+    AliasConditionState  = SOLD SNOW
+    AliasConditionState  = SOLD SNOW DAMAGED
+    AliasConditionState  = SOLD SNOW REALLYDAMAGED
+    AliasConditionState  = SOLD NIGHT SNOW
+    AliasConditionState  = SOLD NIGHT SNOW DAMAGED
+    AliasConditionState  = SOLD NIGHT SNOW REALLYDAMAGED
+    ;**************************************************************************************************************************
+
+
+  ; ------------ Radar Extending -----------------
+  Draw                = W3DModelDraw ModuleTag_02
+
+    DefaultConditionState
+      Model             = None
+    End
+    AliasConditionState = DAMAGED
+    AliasConditionState = REALLYDAMAGED RUBBLE
+       
+    ModelConditionState      = RADAR_EXTENDING RADAR_UPGRADED 
+      Model             = NBConYard_A2
+      Animation         = NBConYard_A2.NBConYard_A2
+      AnimationMode     = ONCE
+      Flags             = START_FRAME_FIRST
+    End
+    
+    ModelConditionState      = RADAR_EXTENDING DAMAGED RADAR_UPGRADED 
+      Model             = NBConYard_A2D
+      Animation         = NBConYard_A2D.NBConYard_A2D
+      AnimationMode     = ONCE
+      Flags             = START_FRAME_FIRST
+    End
+    
+    ModelConditionState      = RADAR_EXTENDING REALLYDAMAGED RUBBLE RADAR_UPGRADED 
+      Model             = NBConYard_A2E
+      Animation         = NBConYard_A2E.NBConYard_A2E
+      AnimationMode     = ONCE
+      Flags             = START_FRAME_FIRST
+    End
+    
+    ModelConditionState      = RADAR_UPGRADED
+      Model             = NBConYard_A2
+      Animation         = NBConYard_A2.NBConYard_A2
+      AnimationMode     = MANUAL
+      Flags             = START_FRAME_LAST
+    End
+    
+    ModelConditionState      = RADAR_UPGRADED DAMAGED
+      Model             = NBConYard_A2D
+      Animation         = NBConYard_A2D.NBConYard_A2D
+      AnimationMode     = MANUAL
+      Flags             = START_FRAME_LAST
+    End
+    
+    ModelConditionState      = RADAR_UPGRADED REALLYDAMAGED RUBBLE
+      Model             = NBConYard_A2E
+      Animation         = NBConYard_A2E.NBConYard_A2E
+      AnimationMode     = MANUAL
+      Flags             = START_FRAME_LAST
+    End
+    
+    ModelConditionState      = RADAR_UPGRADED AWAITING_CONSTRUCTION PARTIALLY_CONSTRUCTED ACTIVELY_BEING_CONSTRUCTED
+      Model             = NBConYard_A2
+      Flags             = ADJUST_HEIGHT_BY_CONSTRUCTION_PERCENT
+    End
+       
+    ModelConditionState      = RADAR_UPGRADED AWAITING_CONSTRUCTION PARTIALLY_CONSTRUCTED ACTIVELY_BEING_CONSTRUCTED DAMAGED 
+      Model             = NBConYard_A2D
+      Flags             = ADJUST_HEIGHT_BY_CONSTRUCTION_PERCENT
+    End   
+    
+    ModelConditionState      = RADAR_UPGRADED AWAITING_CONSTRUCTION PARTIALLY_CONSTRUCTED ACTIVELY_BEING_CONSTRUCTED REALLYDAMAGED RUBBLE 
+      Model             = NBConYard_A2E
+      Flags             = ADJUST_HEIGHT_BY_CONSTRUCTION_PERCENT
+    End   
+    
+  End
+  
+  ; ------------ construction-zone fence -----------------
+  Draw                = W3DModelDraw ModuleTag_03
+  AnimationsRequirePower = No
+    DefaultConditionState
+      Model           = None
+      TransitionKey   = DOWN_DEFAULT
+    End
+    ModelConditionState    = NIGHT
+      Model           = None
+      TransitionKey   = DOWN_DEFAULT
+    End
+    ModelConditionState    = SNOW
+      Model           = None
+      TransitionKey   = DOWN_DEFAULT
+    End
+    ModelConditionState    = SNOW NIGHT
+      Model           = None
+      TransitionKey   = DOWN_DEFAULT
+    End
+    ModelConditionState    = AWAITING_CONSTRUCTION PARTIALLY_CONSTRUCTED ACTIVELY_BEING_CONSTRUCTED
+      Model           = NBConYard_A4
+      Animation       = NBConYard_A4.NBConYard_A4
+      AnimationMode   = MANUAL
+      Flags           = START_FRAME_LAST
+      TransitionKey   = UP_DAY
+      ParticleSysBone = Pit SmolderingFire
+      ParticleSysBone = Pit01 SmolderingFire
+      ParticleSysBone = Pit SmolderingSmoke
+      ParticleSysBone = Pit01 SmolderingSmoke
+    End
+    ModelConditionState    = NIGHT AWAITING_CONSTRUCTION PARTIALLY_CONSTRUCTED ACTIVELY_BEING_CONSTRUCTED
+      Model           = NBConYard_A4N
+      Animation       = NBConYard_A4N.NBConYard_A4N
+      AnimationMode   = MANUAL
+      Flags           = START_FRAME_LAST
+      TransitionKey   = UP_NIGHT
+      ParticleSysBone = Pit SmolderingFire
+      ParticleSysBone = Pit01 SmolderingFire
+      ParticleSysBone = Pit SmolderingSmoke
+      ParticleSysBone = Pit01 SmolderingSmoke
+    End
+    ModelConditionState    = SNOW AWAITING_CONSTRUCTION PARTIALLY_CONSTRUCTED ACTIVELY_BEING_CONSTRUCTED
+      Model           = NBConYard_A4S
+      Animation       = NBConYard_A4S.NBConYard_A4S
+      AnimationMode   = MANUAL
+      Flags           = START_FRAME_LAST
+      TransitionKey   = UP_SNOW
+      ParticleSysBone = Pit SmolderingFire
+      ParticleSysBone = Pit01 SmolderingFire
+      ParticleSysBone = Pit SmolderingSmoke
+      ParticleSysBone = Pit01 SmolderingSmoke
+    End
+    ModelConditionState    = SNOW NIGHT AWAITING_CONSTRUCTION PARTIALLY_CONSTRUCTED ACTIVELY_BEING_CONSTRUCTED
+      Model           = NBConYard_A4SN
+      Animation       = NBConYard_A4SN.NBConYard_A4SN
+      AnimationMode   = MANUAL
+      Flags           = START_FRAME_LAST
+      TransitionKey   = UP_SNOWNIGHT
+      ParticleSysBone = Pit SmolderingFire
+      ParticleSysBone = Pit01 SmolderingFire
+      ParticleSysBone = Pit SmolderingSmoke
+      ParticleSysBone = Pit01 SmolderingSmoke
+    End
+    TransitionState   = DOWN_DEFAULT UP_DAY
+      Model           = NBConYard_A4
+      Animation       = NBConYard_A4.NBConYard_A4
+      AnimationMode   = ONCE
+      AnimationSpeedFactorRange = 1.0 1.0
+      Flags           = START_FRAME_FIRST
+      ParticleSysBone = Pit SmolderingFire
+      ParticleSysBone = Pit01 SmolderingFire
+      ParticleSysBone = Pit SmolderingSmoke
+      ParticleSysBone = Pit01 SmolderingSmoke
+    End
+    TransitionState   = DOWN_DEFAULT UP_NIGHT
+      Model           = NBConYard_A4N
+      Animation       = NBConYard_A4N.NBConYard_A4N
+      AnimationMode   = ONCE
+      AnimationSpeedFactorRange = 1.0 1.0
+      Flags           = START_FRAME_FIRST
+      ParticleSysBone = Pit SmolderingFire
+      ParticleSysBone = Pit01 SmolderingFire
+      ParticleSysBone = Pit SmolderingSmoke
+      ParticleSysBone = Pit01 SmolderingSmoke
+    End
+    TransitionState   = DOWN_DEFAULT UP_SNOW
+      Model           = NBConYard_A4S
+      Animation       = NBConYard_A4S.NBConYard_A4S
+      AnimationMode   = ONCE
+      AnimationSpeedFactorRange = 1.0 1.0
+      Flags           = START_FRAME_FIRST
+      ParticleSysBone = Pit SmolderingFire
+      ParticleSysBone = Pit01 SmolderingFire
+      ParticleSysBone = Pit SmolderingSmoke
+      ParticleSysBone = Pit01 SmolderingSmoke
+    End
+    TransitionState   = DOWN_DEFAULT UP_SNOWNIGHT
+      Model           = NBConYard_A4SN
+      Animation       = NBConYard_A4SN.NBConYard_A4SN
+      AnimationMode   = ONCE
+      AnimationSpeedFactorRange = 1.0 1.0
+      Flags           = START_FRAME_FIRST
+      ParticleSysBone = Pit SmolderingFire
+      ParticleSysBone = Pit01 SmolderingFire
+      ParticleSysBone = Pit SmolderingSmoke
+      ParticleSysBone = Pit01 SmolderingSmoke
+    End
+    TransitionState   = UP_DAY DOWN_DEFAULT
+      Model           = NBConYard_A4
+      Animation       = NBConYard_A4.NBConYard_A4
+      AnimationMode   = ONCE_BACKWARDS
+      AnimationSpeedFactorRange = 2.0 2.0   ; play teardown animations more quickly
+      Flags           = START_FRAME_LAST
+      ParticleSysBone = Pit SmolderingFire
+      ParticleSysBone = Pit01 SmolderingFire
+      ParticleSysBone = Pit SmolderingSmoke
+      ParticleSysBone = Pit01 SmolderingSmoke
+    End
+    TransitionState   = UP_NIGHT DOWN_DEFAULT
+      Model           = NBConYard_A4N
+      Animation       = NBConYard_A4N.NBConYard_A4N
+      AnimationMode   = ONCE_BACKWARDS
+      AnimationSpeedFactorRange = 2.0 2.0   ; play teardown animations more quickly
+      Flags           = START_FRAME_LAST
+      ParticleSysBone = Pit SmolderingFire
+      ParticleSysBone = Pit01 SmolderingFire
+      ParticleSysBone = Pit SmolderingSmoke
+      ParticleSysBone = Pit01 SmolderingSmoke
+    End
+    TransitionState   = UP_SNOW DOWN_DEFAULT
+      Model           = NBConYard_A4S
+      Animation       = NBConYard_A4S.NBConYard_A4S
+      AnimationMode   = ONCE_BACKWARDS
+      AnimationSpeedFactorRange = 2.0 2.0   ; play teardown animations more quickly
+      Flags           = START_FRAME_LAST
+      ParticleSysBone = Pit SmolderingFire
+      ParticleSysBone = Pit01 SmolderingFire
+      ParticleSysBone = Pit SmolderingSmoke
+      ParticleSysBone = Pit01 SmolderingSmoke
+    End
+    TransitionState   = UP_SNOWNIGHT DOWN_DEFAULT
+      Model           = NBConYard_A4SN
+      Animation       = NBConYard_A4SN.NBConYard_A4SN
+      AnimationMode   = ONCE_BACKWARDS
+      AnimationSpeedFactorRange = 2.0 2.0   ; play teardown animations more quickly
+      Flags           = START_FRAME_LAST
+      ParticleSysBone = Pit SmolderingFire
+      ParticleSysBone = Pit01 SmolderingFire
+      ParticleSysBone = Pit SmolderingSmoke
+      ParticleSysBone = Pit01 SmolderingSmoke
+    End
+  End
+
+  ; ------------ under-construction scaffolding -----------------
+  Draw                = W3DModelDraw ModuleTag_04
+    AnimationsRequirePower = No
+    MinLODRequired = MEDIUM
+    DefaultConditionState
+      Model           = None
+      TransitionKey   = DOWN_DEFAULT
+    End
+    ModelConditionState    = NIGHT
+      Model           = None
+      TransitionKey   = DOWN_DEFAULT
+    End
+    ModelConditionState    = SNOW
+      Model           = None
+      TransitionKey   = DOWN_DEFAULT
+    End
+    ModelConditionState    = SNOW NIGHT
+      Model           = None
+      TransitionKey   = DOWN_DEFAULT
+    End
+    ModelConditionState    = PARTIALLY_CONSTRUCTED
+      Model           = NBConYard_A6
+      Animation       = NBConYard_A6.NBConYard_A6
+      AnimationMode   = MANUAL
+      Flags           = START_FRAME_LAST
+      TransitionKey   = UP_DAY
+      ParticleSysBone = Dust01 BuildingDustChina
+      ParticleSysBone = SmokeM01 BuildUpSmokeChina
+      ParticleSysBone = SmokeS02 BuildUpSmokeChina
+      ParticleSysBone = SparksM01 BuildUpSmokeChina
+      ParticleSysBone = SparksM02 BuildUpSmokeChina
+      ParticleSysBone = SparksS01 BuildUpSmokeChina
+      ParticleSysBone = SparksS02 BuildUpSmokeChina
+    End
+    ModelConditionState    = NIGHT PARTIALLY_CONSTRUCTED
+      Model           = NBConYard_A6N
+      Animation       = NBConYard_A6N.NBConYard_A6N
+      AnimationMode   = MANUAL
+      Flags           = START_FRAME_LAST
+      TransitionKey   = UP_NIGHT
+
+      ParticleSysBone = Dust01 BuildingDustChina
+      ParticleSysBone = SmokeM01 BuildUpSmokeChina
+      ParticleSysBone = SmokeS02 BuildUpSmokeChina
+      ParticleSysBone = SparksM01 BuildUpSmokeChina
+      ParticleSysBone = SparksM02 BuildUpSmokeChina
+      ParticleSysBone = SparksS01 BuildUpSmokeChina
+      ParticleSysBone = SparksS02 BuildUpSmokeChina
+    End
+    ModelConditionState    = SNOW PARTIALLY_CONSTRUCTED
+      Model           = NBConYard_A6S
+      Animation       = NBConYard_A6S.NBConYard_A6S
+      AnimationMode   = MANUAL
+      Flags           = START_FRAME_LAST
+      TransitionKey   = UP_SNOW
+      ParticleSysBone = Dust01 BuildingSnowDust
+      ParticleSysBone = SmokeM01 BuildUpSnowSmoke
+      ParticleSysBone = SmokeS02 BuildUpSnowSmoke
+      ParticleSysBone = SparksM01 BuildUpSnowSmoke
+      ParticleSysBone = SparksM02 BuildUpSnowSmoke
+      ParticleSysBone = SparksS01 BuildUpSnowSmoke
+      ParticleSysBone = SparksS02 BuildUpSnowSmoke
+    End
+    ModelConditionState    = SNOW NIGHT PARTIALLY_CONSTRUCTED
+      Model           = NBConYard_A6SN
+      Animation       = NBConYard_A6SN.NBConYard_A6SN
+      AnimationMode   = MANUAL
+      Flags           = START_FRAME_LAST
+      TransitionKey   = UP_SNOWNIGHT
+      ParticleSysBone = Dust01 BuildingNightSnowDust
+      ParticleSysBone = SmokeM01 BuildUpNightSnowSmoke
+      ParticleSysBone = SmokeS02 BuildUpNightSnowSmoke
+      ParticleSysBone = SparksM01 BuildUpNightSnowSmoke
+      ParticleSysBone = SparksM02 BuildUpNightSnowSmoke
+      ParticleSysBone = SparksS01 BuildUpNightSnowSmoke
+      ParticleSysBone = SparksS02 BuildUpNightSnowSmoke
+    End
+    TransitionState   = DOWN_DEFAULT UP_DAY
+     Model            = NBConYard_A6
+      Animation       = NBConYard_A6.NBConYard_A6
+      AnimationMode   = ONCE
+      AnimationSpeedFactorRange = 1.0 1.0
+      Flags           = START_FRAME_FIRST
+    End
+    TransitionState   = DOWN_DEFAULT UP_NIGHT
+     Model            = NBConYard_A6N
+      Animation       = NBConYard_A6N.NBConYard_A6N
+      AnimationMode   = ONCE
+      AnimationSpeedFactorRange = 1.0 1.0
+      Flags           = START_FRAME_FIRST
+    End
+    TransitionState   = DOWN_DEFAULT UP_SNOW
+     Model            = NBConYard_A6S
+      Animation       = NBConYard_A6S.NBConYard_A6S
+      AnimationMode   = ONCE
+      AnimationSpeedFactorRange = 1.0 1.0
+      Flags           = START_FRAME_FIRST
+    End
+    TransitionState   = DOWN_DEFAULT UP_SNOWNIGHT
+     Model            = NBConYard_A6SN
+      Animation       = NBConYard_A6SN.NBConYard_A6SN
+      AnimationMode   = ONCE
+      AnimationSpeedFactorRange = 1.0 1.0
+      Flags           = START_FRAME_FIRST
+    End
+    TransitionState   = UP_DAY DOWN_DEFAULT
+      Model           = NBConYard_A6
+      Animation       = NBConYard_A6.NBConYard_A6
+      AnimationMode   = ONCE_BACKWARDS
+      AnimationSpeedFactorRange = 2.0 2.0   ; play teardown animations more quickly
+      Flags           = START_FRAME_LAST
+    End
+    TransitionState   = UP_NIGHT DOWN_DEFAULT
+      Model           = NBConYard_A6N
+      Animation       = NBConYard_A6N.NBConYard_A6N
+      AnimationMode   = ONCE_BACKWARDS
+      AnimationSpeedFactorRange = 2.0 2.0   ; play teardown animations more quickly
+      Flags           = START_FRAME_LAST
+    End
+    TransitionState   = UP_SNOW DOWN_DEFAULT
+      Model           = NBConYard_A6S
+      Animation       = NBConYard_A6S.NBConYard_A6S
+      AnimationMode   = ONCE_BACKWARDS
+      AnimationSpeedFactorRange = 2.0 2.0   ; play teardown animations more quickly
+      Flags           = START_FRAME_LAST
+    End
+    TransitionState   = UP_SNOWNIGHT DOWN_DEFAULT
+      Model           = NBConYard_A6SN
+      Animation       = NBConYard_A6SN.NBConYard_A6SN
+      AnimationMode   = ONCE_BACKWARDS
+      AnimationSpeedFactorRange = 2.0 2.0   ; play teardown animations more quickly
+      Flags           = START_FRAME_LAST
+    End
+  End
+
+  ; ------------ being-constructed crane -----------------
+  Draw = W3DModelDraw ModuleTag_05
+    AnimationsRequirePower = No
+    DefaultConditionState
+      Model           = None
+      TransitionKey   = DOWN_DEFAULT
+    End
+    ModelConditionState    = NIGHT
+      Model           = None
+      TransitionKey   = DOWN_DEFAULT
+    End
+    ModelConditionState    = SNOW
+      Model           = None
+      TransitionKey   = DOWN_DEFAULT
+    End
+    ModelConditionState    = SNOW NIGHT
+      Model           = None
+      TransitionKey   = DOWN_DEFAULT
+    End
+    
+    ModelConditionState  = ACTIVELY_BEING_CONSTRUCTED
+      Model           = NBConYard_A5
+      Animation       = NBConYard_A5.NBConYard_A5
+      AnimationMode   = LOOP
+      TransitionKey  = UP_DAY
+    End
+
+    ModelConditionState  = NIGHT ACTIVELY_BEING_CONSTRUCTED
+      Model           = NBConYard_A5N
+      Animation       = NBConYard_A5N.NBConYard_A5N
+      AnimationMode   = LOOP
+      TransitionKey  = UP_NIGHT
+    End
+    ModelConditionState  = SNOW ACTIVELY_BEING_CONSTRUCTED
+      Model           = NBConYard_A5S
+      Animation       = NBConYard_A5S.NBConYard_A5S
+      AnimationMode   = LOOP
+      TransitionKey  = UP_SNOW
+    End
+    ModelConditionState  = SNOW NIGHT ACTIVELY_BEING_CONSTRUCTED
+      Model           = NBConYard_A5SN
+      Animation       = NBConYard_A5SN.NBConYard_A5SN
+      AnimationMode   = LOOP
+      TransitionKey  = UP_SNOWNIGHT
+    End
+    TransitionState   = DOWN_DEFAULT UP_DAY
+      Model            = NBConYard_AB
+      Animation       = NBConYard_AB.NBConYard_AB
+      AnimationMode   = ONCE
+      AnimationSpeedFactorRange = 1.0 1.0
+      Flags           = START_FRAME_FIRST
+    End
+
+    TransitionState   = DOWN_DEFAULT UP_NIGHT
+      Model            = NBConYard_ABN
+      Animation       = NBConYard_ABN.NBConYard_ABN
+      AnimationMode   = ONCE
+      AnimationSpeedFactorRange = 1.0 1.0
+      Flags           = START_FRAME_FIRST
+    End
+    TransitionState   = DOWN_DEFAULT UP_SNOW
+      Model            = NBConYard_ABS
+      Animation       = NBConYard_ABS.NBConYard_ABS
+      AnimationMode   = ONCE
+      AnimationSpeedFactorRange = 1.0 1.0
+      Flags           = START_FRAME_FIRST
+    End
+    TransitionState   = DOWN_DEFAULT UP_SNOWNIGHT
+      Model            = NBConYard_ABSN
+      Animation       = NBConYard_ABSN.NBConYard_ABSN
+      AnimationMode   = ONCE
+      AnimationSpeedFactorRange = 1.0 1.0
+      Flags           = START_FRAME_FIRST
+    End
+    TransitionState   = UP_DAY DOWN_DEFAULT
+      Model            = NBConYard_AB
+      Animation       = NBConYard_AB.NBConYard_AB
+      AnimationMode   = ONCE_BACKWARDS
+      AnimationSpeedFactorRange = 2.0 2.0   ; play teardown animations more quickly
+      Flags           = START_FRAME_LAST
+    End
+    TransitionState   = UP_NIGHT DOWN_DEFAULT
+      Model            = NBConYard_ABN
+      Animation       = NBConYard_ABN.NBConYard_ABN
+      AnimationMode   = ONCE_BACKWARDS
+      AnimationSpeedFactorRange = 2.0 2.0   ; play teardown animations more quickly
+      Flags           = START_FRAME_LAST
+    End
+    TransitionState   = UP_SNOW DOWN_DEFAULT
+      Model            = NBConYard_ABS
+      Animation       = NBConYard_ABS.NBConYard_ABS
+      AnimationMode   = ONCE_BACKWARDS
+      AnimationSpeedFactorRange = 2.0 2.0   ; play teardown animations more quickly
+      Flags           = START_FRAME_LAST
+    End
+    TransitionState   = UP_SNOWNIGHT DOWN_DEFAULT
+      Model            = NBConYard_ABSN
+      Animation       = NBConYard_ABSN.NBConYard_ABSN
+      AnimationMode   = ONCE_BACKWARDS
+      AnimationSpeedFactorRange = 2.0 2.0   ; play teardown animations more quickly
+      Flags           = START_FRAME_LAST
+    End
+  End
+    
+; ----------------- the factory door -------------------
+  Draw                = W3DModelDraw ModuleTag_06
+    DefaultConditionState
+      Model           = NBConYard_A7
+      Animation       = NBConYard_A7.NBConYard_A7
+      AnimationMode   = MANUAL
+      Flags           = START_FRAME_FIRST
+    End
+    AliasConditionState = NIGHT
+    AliasConditionState = SNOW
+    AliasConditionState = NIGHT SNOW
+    
+    ModelConditionState    = DAMAGED
+      Model           = NBConYard_A7D
+      Animation       = NBConYard_A7D.NBConYard_A7D
+      AnimationMode   = MANUAL
+      Flags           = START_FRAME_FIRST
+    End
+    AliasConditionState = NIGHT DAMAGED
+    AliasConditionState = SNOW DAMAGED
+    AliasConditionState = NIGHT SNOW DAMAGED
+    
+    ModelConditionState    = REALLYDAMAGED RUBBLE
+      Model           = NBConYard_A7D
+      Animation       = NBConYard_A7D.NBConYard_A7D
+      AnimationMode   = MANUAL
+      Flags           = START_FRAME_FIRST
+    End
+    AliasConditionState = NIGHT REALLYDAMAGED RUBBLE
+    AliasConditionState = SNOW REALLYDAMAGED RUBBLE
+    AliasConditionState = NIGHT SNOW REALLYDAMAGED RUBBLE
+    
+    ModelConditionState    = DOOR_1_OPENING
+      Model           = NBConYard_A7
+      Animation       = NBConYard_A7.NBConYard_A7
+      AnimationMode   = ONCE
+      Flags           = START_FRAME_FIRST
+    End   
+    AliasConditionState = NIGHT DOOR_1_OPENING
+    AliasConditionState = SNOW DOOR_1_OPENING
+    AliasConditionState = NIGHT SNOW DOOR_1_OPENING
+    
+    ModelConditionState    = DOOR_1_OPENING DAMAGED
+      Model           = NBConYard_A7D
+      Animation       = NBConYard_A7D.NBConYard_A7D
+      AnimationMode   = ONCE
+      Flags           = START_FRAME_FIRST
+    End   
+    AliasConditionState = NIGHT DOOR_1_OPENING DAMAGED
+    AliasConditionState = SNOW DOOR_1_OPENING DAMAGED
+    AliasConditionState = NIGHT SNOW DOOR_1_OPENING DAMAGED
+    
+    ModelConditionState    = DOOR_1_OPENING REALLYDAMAGED RUBBLE
+      Model           = NBConYard_A7D
+      Animation       = NBConYard_A7D.NBConYard_A7D
+      AnimationMode   = ONCE
+      Flags           = START_FRAME_FIRST
+    End
+    AliasConditionState = NIGHT DOOR_1_OPENING REALLYDAMAGED RUBBLE
+    AliasConditionState = SNOW DOOR_1_OPENING REALLYDAMAGED RUBBLE
+    AliasConditionState = NIGHT SNOW DOOR_1_OPENING REALLYDAMAGED RUBBLE
+    
+    ModelConditionState    = DOOR_1_CLOSING
+      Model           = NBConYard_A7
+      Animation       = NBConYard_A7.NBConYard_A7
+      AnimationMode   = ONCE_BACKWARDS
+      Flags           = START_FRAME_LAST
+    End 
+    AliasConditionState = NIGHT DOOR_1_CLOSING
+    AliasConditionState = SNOW DOOR_1_CLOSING
+    AliasConditionState = NIGHT SNOW DOOR_1_CLOSING
+      
+    ModelConditionState    = DOOR_1_CLOSING DAMAGED
+      Model           = NBConYard_A7D
+      Animation       = NBConYard_A7D.NBConYard_A7D
+      AnimationMode   = ONCE_BACKWARDS
+      Flags           = START_FRAME_LAST
+    End   
+    AliasConditionState = NIGHT DOOR_1_CLOSING DAMAGED
+    AliasConditionState = SNOW DOOR_1_CLOSING DAMAGED
+    AliasConditionState = NIGHT SNOW DOOR_1_CLOSING DAMAGED
+    
+    ModelConditionState    = DOOR_1_CLOSING REALLYDAMAGED RUBBLE
+      Model           = NBConYard_A7D
+      Animation       = NBConYard_A7D.NBConYard_A7D
+      AnimationMode   = ONCE_BACKWARDS
+      Flags           = START_FRAME_LAST
+    End   
+    AliasConditionState = NIGHT DOOR_1_CLOSING REALLYDAMAGED RUBBLE
+    AliasConditionState = SNOW DOOR_1_CLOSING REALLYDAMAGED RUBBLE
+    AliasConditionState = NIGHT SNOW DOOR_1_CLOSING REALLYDAMAGED RUBBLE
+    
+    ModelConditionState    = DOOR_1_WAITING_OPEN
+      Model           = NBConYard_A7
+      Animation       = NBConYard_A7.NBConYard_A7
+      AnimationMode   = MANUAL
+      Flags           = START_FRAME_LAST
+    End  
+    AliasConditionState = NIGHT DOOR_1_WAITING_OPEN
+    AliasConditionState = SNOW DOOR_1_WAITING_OPEN
+    AliasConditionState = NIGHT SNOW DOOR_1_WAITING_OPEN
+     
+    ModelConditionState    = DOOR_1_WAITING_OPEN DAMAGED
+      Model           = NBConYard_A7D
+      Animation       = NBConYard_A7D.NBConYard_A7D
+      AnimationMode   = MANUAL
+      Flags           = START_FRAME_LAST
+    End  
+    AliasConditionState = NIGHT DOOR_1_WAITING_OPEN DAMAGED
+    AliasConditionState = SNOW DOOR_1_WAITING_OPEN DAMAGED
+    AliasConditionState = NIGHT SNOW DOOR_1_WAITING_OPEN DAMAGED
+     
+    ModelConditionState    = DOOR_1_WAITING_OPEN REALLYDAMAGED RUBBLE
+      Model           = NBConYard_A7D
+      Animation       = NBConYard_A7D.NBConYard_A7D
+      AnimationMode   = MANUAL
+      Flags           = START_FRAME_LAST
+    End   
+    AliasConditionState = NIGHT DOOR_1_WAITING_OPEN REALLYDAMAGED RUBBLE
+    AliasConditionState = SNOW DOOR_1_WAITING_OPEN REALLYDAMAGED RUBBLE
+    AliasConditionState = NIGHT SNOW DOOR_1_WAITING_OPEN REALLYDAMAGED RUBBLE
+    
+    ;**************************************************************************************************************************
+    ;This block handles every possible case with construction process, selling process, awaiting construction, and sold states
+    ;for this draw module
+    ModelConditionState       = AWAITING_CONSTRUCTION PARTIALLY_CONSTRUCTED ACTIVELY_BEING_CONSTRUCTED
+      Model              = NBConYard_A7
+      Flags              = ADJUST_HEIGHT_BY_CONSTRUCTION_PERCENT
+    End
+    AliasConditionState  = AWAITING_CONSTRUCTION PARTIALLY_CONSTRUCTED ACTIVELY_BEING_CONSTRUCTED NIGHT
+    AliasConditionState  = AWAITING_CONSTRUCTION PARTIALLY_CONSTRUCTED ACTIVELY_BEING_CONSTRUCTED SNOW
+    AliasConditionState  = AWAITING_CONSTRUCTION PARTIALLY_CONSTRUCTED ACTIVELY_BEING_CONSTRUCTED NIGHT SNOW
+    
+    ModelConditionState       = AWAITING_CONSTRUCTION PARTIALLY_CONSTRUCTED ACTIVELY_BEING_CONSTRUCTED DAMAGED
+      Model              = NBConYard_A7D
+      Flags              = ADJUST_HEIGHT_BY_CONSTRUCTION_PERCENT
+    End
+    AliasConditionState  = AWAITING_CONSTRUCTION PARTIALLY_CONSTRUCTED ACTIVELY_BEING_CONSTRUCTED DAMAGED NIGHT
+    AliasConditionState  = AWAITING_CONSTRUCTION PARTIALLY_CONSTRUCTED ACTIVELY_BEING_CONSTRUCTED DAMAGED SNOW
+    AliasConditionState  = AWAITING_CONSTRUCTION PARTIALLY_CONSTRUCTED ACTIVELY_BEING_CONSTRUCTED DAMAGED NIGHT SNOW
+    
+    ModelConditionState       = AWAITING_CONSTRUCTION PARTIALLY_CONSTRUCTED ACTIVELY_BEING_CONSTRUCTED REALLYDAMAGED
+      Model              = NBConYard_A7D
+      Flags              = ADJUST_HEIGHT_BY_CONSTRUCTION_PERCENT
+    End
+    AliasConditionState  = AWAITING_CONSTRUCTION PARTIALLY_CONSTRUCTED ACTIVELY_BEING_CONSTRUCTED REALLYDAMAGED NIGHT
+    AliasConditionState  = AWAITING_CONSTRUCTION PARTIALLY_CONSTRUCTED ACTIVELY_BEING_CONSTRUCTED REALLYDAMAGED SNOW
+    AliasConditionState  = AWAITING_CONSTRUCTION PARTIALLY_CONSTRUCTED ACTIVELY_BEING_CONSTRUCTED REALLYDAMAGED NIGHT SNOW
+    
+    ModelConditionState       = AWAITING_CONSTRUCTION 
+      Model              = NONE
+    End
+    AliasConditionState  = AWAITING_CONSTRUCTION DAMAGED
+    AliasConditionState  = AWAITING_CONSTRUCTION REALLYDAMAGED
+    AliasConditionState  = AWAITING_CONSTRUCTION NIGHT
+    AliasConditionState  = AWAITING_CONSTRUCTION NIGHT DAMAGED
+    AliasConditionState  = AWAITING_CONSTRUCTION NIGHT REALLYDAMAGED
+    AliasConditionState  = AWAITING_CONSTRUCTION NIGHT SNOW
+    AliasConditionState  = AWAITING_CONSTRUCTION NIGHT SNOW DAMAGED
+    AliasConditionState  = AWAITING_CONSTRUCTION NIGHT SNOW REALLYDAMAGED
+    AliasConditionState  = SOLD DAMAGED
+    AliasConditionState  = SOLD REALLYDAMAGED
+    AliasConditionState  = SOLD NIGHT
+    AliasConditionState  = SOLD NIGHT DAMAGED
+    AliasConditionState  = SOLD NIGHT REALLYDAMAGED
+    AliasConditionState  = SOLD NIGHT SNOW
+    AliasConditionState  = SOLD NIGHT SNOW DAMAGED
+    AliasConditionState  = SOLD NIGHT SNOW REALLYDAMAGED
+    ;**************************************************************************************************************************
+    
+  End
+  
+  ; Officers club flag
+  Draw = W3DModelDraw ModuleTag_OfficersClub
+    OkToChangeModelColor = No
+
+    ModelConditionState       = NONE
+      Model              = None
+    End
+    AliasConditionState  = DAMAGED
+    AliasConditionState  = REALLYDAMAGED
+    AliasConditionState  = RUBBLE
+    AliasConditionState  = REALLYDAMAGED RUBBLE
+    ModelConditionState       = PREORDER
+      Model              = OCFlagCHA
+      Animation          = OCFlagCHA.OCFlagCHA
+      AnimationMode      = LOOP
+      Flags              = ADJUST_HEIGHT_BY_CONSTRUCTION_PERCENT
+    End
+;    ModelConditionState       = PREORDER DAMAGED
+;      Model              = OCFlagCHA_D
+;      Animation          = OCFlagCHA_D.OCFlagCHA_D
+;      AnimationMode      = LOOP
+;      Flags              = ADJUST_HEIGHT_BY_CONSTRUCTION_PERCENT
+;    End
+;    ModelConditionState       = PREORDER REALLYDAMAGED
+;      Model              = OCFlagCHA_E
+;      Animation          = OCFlagCHA_E.OCFlagCHA_E
+;      AnimationMode      = LOOP
+;      Flags              = ADJUST_HEIGHT_BY_CONSTRUCTION_PERCENT
+;    End
+  End
